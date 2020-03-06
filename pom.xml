@@ -23,7 +23,7 @@
   </properties>
 
   <build>
-    <outputDirectory>$JENKINS_HOME/artifacts</outputDirectory>
+    <outputDirectory>${JENKINS_HOME}/artifacts</outputDirectory>
     <plugins>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
